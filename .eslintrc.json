@@ -28,9 +28,10 @@
             "/^next/",
             "module"
           ],
-          "/^@/styles/",
-          "/^@/components/",
-          "/^@/lib/",
+          "/^@\\/features\\/.*\\.css$/",
+          "/^@\\/features\\//",
+          "/^@\\/public\\//",
+          "/^@\\/lib\\//",
           [
             "parent",
             "sibling",
