@@ -1,11 +1,13 @@
 'use client';
 
-import { ListItem, ListItemPrefix } from '@material-tailwind/react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { SidebarItem } from '../../types/sidebar';
-import { cn } from '../../utils';
+import { ListItem, ListItemPrefix } from '@material-tailwind/react';
+
+import { cn } from '@/features/ui/utils/index';
+
+import { SidebarItem } from '@/features/ui/types/sidebar';
 
 interface MenuLinkProps {
   item: SidebarItem;
