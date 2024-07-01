@@ -24,11 +24,12 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          [
-            "/^next/",
-            "module"
-          ],
+          "/^react/",
+          "/^next/",
+          "module",
           "/^@\\/features\\/.*\\.css$/",
+          "/^@\\/features\\/ui\\/componentes\\/.*\\.css$/",
+          "/^@\\/features\\/ui\\/componentes/",
           "/^@\\/features\\//",
           "/^@\\/public\\//",
           "/^@\\/lib\\//",
