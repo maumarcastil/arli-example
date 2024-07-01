@@ -56,7 +56,7 @@ const LanguageButton = () => {
             onPointerLeaveCapture={() => {}}
           >
             <Avatar
-              size="sm"
+              size="xs"
               alt="avatar"
               src={spain?.flags.png}
               placeholder={undefined}
