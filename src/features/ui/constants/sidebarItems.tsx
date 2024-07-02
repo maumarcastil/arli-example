@@ -25,6 +25,11 @@ export const SIDEBAR_ITEMS: SidebarItem[] = [
   {
     title: 'Generadores',
     path: '/dashboard/generators',
+    icon: <FiHome />,
+  },
+  /* {
+    title: 'Generadores',
+    path: '/dashboard/generators',
     icon: <FiUser />,
   },
   {
@@ -51,5 +56,5 @@ export const SIDEBAR_ITEMS: SidebarItem[] = [
     title: 'Transacciones',
     path: '/dashboard/transactions',
     icon: <FiTag />,
-  },
+  }, */
 ];
