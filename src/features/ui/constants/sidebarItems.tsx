@@ -18,15 +18,20 @@ export const SIDEBAR_ITEMS: SidebarItem[] = [
     icon: <FiHome />,
   },
   {
-    title: 'Recolecciones',
-    path: '/dashboard/collections',
-    icon: <FiTruck />,
-  },
-  {
     title: 'Generadores',
     path: '/dashboard/generators',
     icon: <FiHome />,
   },
+  {
+    title: 'Usuarios',
+    path: '/dashboard/users',
+    icon: <FiUser />,
+  },
+  /* {
+    title: 'Recolecciones',
+    path: '/dashboard/collections',
+    icon: <FiTruck />,
+  }, */
   /* {
     title: 'Generadores',
     path: '/dashboard/generators',
